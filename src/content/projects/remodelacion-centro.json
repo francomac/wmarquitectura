@@ -1,0 +1,29 @@
+{
+  "slug": "remodelacion-centro",
+  "order": 5,
+  "year": 2019,
+  "type": "remodelacion",
+  "cover": "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=1400&q=80",
+  "images": [
+    "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1556912173-3bb406ef7e77?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?auto=format&fit=crop&w=1600&q=80"
+  ],
+  "i18n": {
+    "es": {
+      "title": "Remodelación Centro",
+      "location": "Barrio Escalante, San José",
+      "description": "Rehabilitación de una casa de los años 60 conservando la estructura original. Se abrieron los espacios principales y se actualizaron instalaciones para una familia joven."
+    },
+    "en": {
+      "title": "Downtown Renovation",
+      "location": "Barrio Escalante, San José",
+      "description": "Rehabilitation of a 1960s house keeping the original structure. Main spaces were opened up and systems were modernized for a young family."
+    },
+    "fr": {
+      "title": "Rénovation Centre",
+      "location": "Barrio Escalante, San José",
+      "description": "Réhabilitation d'une maison des années 60 en conservant la structure d'origine. Les espaces principaux ont été ouverts et les installations modernisées pour une jeune famille."
+    }
+  }
+}

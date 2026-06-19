@@ -1,0 +1,42 @@
+---
+import type { Lang } from '../lib/site';
+import { t } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const items = [
+  { key: 'design', num: '01' },
+  { key: 'renovation', num: '02' },
+  { key: 'construction', num: '03' },
+  { key: 'consulting', num: '04' },
+] as const;
+---
+
+<section id="servicios" class="border-b border-ink/5 bg-paper">
+  <div class="container-w py-16 sm:py-24">
+    <header class="mb-10 sm:mb-14">
+      <span class="eyebrow">{t('services.title', lang)}</span>
+      <h2 class="mt-3 h-section">{t('services.subtitle', lang)}</h2>
+    </header>
+
+    <ul class="grid gap-px overflow-hidden rounded-2xl border border-ink/10 bg-ink/10 sm:grid-cols-2 lg:grid-cols-4">
+      {
+        items.map((it) => (
+          <li class="bg-paper p-6 sm:p-7">
+            <span class="font-display text-fluid-lg text-ink-muted">{it.num}</span>
+            <h3 class="mt-4 font-display text-fluid-lg text-ink">
+              {t(`services.items.${it.key}.title`, lang)}
+            </h3>
+            <p class="mt-3 text-sm leading-relaxed text-ink-muted">
+              {t(`services.items.${it.key}.description`, lang)}
+            </p>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</section>

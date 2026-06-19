@@ -1,0 +1,29 @@
+{
+  "slug": "residencia-cariari",
+  "order": 2,
+  "year": 2022,
+  "type": "residencial",
+  "cover": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1400&q=80",
+  "images": [
+    "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=80"
+  ],
+  "i18n": {
+    "es": {
+      "title": "Residencia Cariari",
+      "location": "Cariari, Heredia",
+      "description": "Residencia de dos niveles con un volumen claro y una piel de madera que filtra la luz. Énfasis en privacidad hacia la calle y apertura total hacia el jardín posterior."
+    },
+    "en": {
+      "title": "Cariari Residence",
+      "location": "Cariari, Heredia",
+      "description": "Two-story residence with a clean volume and a timber skin that filters daylight. Privacy toward the street, full openness toward the rear garden."
+    },
+    "fr": {
+      "title": "Résidence Cariari",
+      "location": "Cariari, Heredia",
+      "description": "Résidence sur deux niveaux au volume net, habillée d'une peau en bois qui filtre la lumière. Intimité côté rue, ouverture totale vers le jardin arrière."
+    }
+  }
+}

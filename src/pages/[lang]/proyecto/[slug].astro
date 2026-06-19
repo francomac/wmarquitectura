@@ -1,0 +1,102 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Nav from '../../../components/Nav.astro';
+import Footer from '../../../components/Footer.astro';
+import { LANGS, type Lang } from '../../../lib/site';
+import { t } from '../../../i18n/ui';
+import { asset } from '../../../lib/assets';
+import { localePath } from '../../../lib/paths';
+
+export const getStaticPaths = async () => {
+  const projects = await getCollection('projects');
+  return LANGS.flatMap((lang) =>
+    projects.map((p) => ({
+      params: { lang, slug: p.data.slug },
+      props: { project: p, projects },
+    }))
+  );
+};
+
+const lang = Astro.params.lang as Lang;
+const { project, projects } = Astro.props as {
+  project: Awaited<ReturnType<typeof getCollection<'projects'>>>[number];
+  projects: Awaited<ReturnType<typeof getCollection<'projects'>>>;
+};
+
+const tr = project.data.i18n[lang];
+const ordered = [...projects].sort((a, b) => a.data.order - b.data.order);
+const idx = ordered.findIndex((p) => p.data.slug === project.data.slug);
+const next = ordered[(idx + 1) % ordered.length];
+const nextTr = next.data.i18n[lang];
+---
+
+<BaseLayout lang={lang} title={tr.title} description={tr.description}>
+  <Nav lang={lang} />
+  <main id="contenido">
+    <article>
+      <header class="border-b border-ink/5 bg-paper-soft">
+        <div class="container-w py-12 sm:py-16">
+          <a
+            href={`${localePath(lang)}#proyectos`}
+            class="inline-flex items-center gap-2 text-xs uppercase tracking-widest text-ink-muted hover:text-ink"
+          >
+            <span aria-hidden="true">←</span> {t('projects.back', lang)}
+          </a>
+          <h1 class="mt-6 h-display">{tr.title}</h1>
+          <dl class="mt-6 grid grid-cols-2 gap-6 text-sm sm:grid-cols-3 sm:max-w-2xl">
+            <div>
+              <dt class="text-xs uppercase tracking-widest text-ink-muted">{t('projects.location', lang)}</dt>
+              <dd class="mt-1 text-ink">{tr.location}</dd>
+            </div>
+            <div>
+              <dt class="text-xs uppercase tracking-widest text-ink-muted">{t('projects.year', lang)}</dt>
+              <dd class="mt-1 text-ink">{project.data.year}</dd>
+            </div>
+            <div>
+              <dt class="text-xs uppercase tracking-widest text-ink-muted">{t('projects.type', lang)}</dt>
+              <dd class="mt-1 capitalize text-ink">{project.data.type}</dd>
+            </div>
+          </dl>
+        </div>
+      </header>
+
+      <section class="container-w py-12 sm:py-16">
+        <p class="max-w-prose text-fluid-base leading-relaxed text-ink-muted">{tr.description}</p>
+      </section>
+
+      <section class="container-w pb-16 sm:pb-24">
+        <h2 class="sr-only">{t('projects.gallery', lang)}</h2>
+        <div class="grid gap-4 sm:gap-6">
+          {
+            project.data.images.map((img, i) => (
+              <figure class="overflow-hidden rounded-2xl bg-paper-soft">
+                <img
+                  src={asset(img)}
+                  alt={`${tr.title} — ${i + 1}`}
+                  loading={i === 0 ? 'eager' : 'lazy'}
+                  decoding="async"
+                  class="h-auto w-full"
+                />
+              </figure>
+            ))
+          }
+        </div>
+      </section>
+
+      <nav class="border-t border-ink/5 bg-paper-soft" aria-label="Project navigation">
+        <a
+          href={localePath(lang, 'proyecto', next.data.slug)}
+          class="container-w group flex items-center justify-between gap-6 py-10"
+        >
+          <div>
+            <p class="text-xs uppercase tracking-widest text-ink-muted">{t('projects.next', lang)}</p>
+            <p class="mt-2 font-display text-fluid-xl text-ink">{nextTr.title}</p>
+          </div>
+          <span class="font-display text-fluid-xl text-ink transition-transform group-hover:translate-x-1">→</span>
+        </a>
+      </nav>
+    </article>
+  </main>
+  <Footer lang={lang} />
+</BaseLayout>

@@ -1,0 +1,25 @@
+---
+import { SITE, type Lang } from '../lib/site';
+import { t } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const year = 2026;
+---
+
+<footer class="bg-paper">
+  <div class="container-w flex flex-col gap-4 py-10 sm:flex-row sm:items-center sm:justify-between">
+    <div>
+      <p class="font-display text-lg text-ink">{SITE.name}</p>
+      <p class="mt-1 text-xs text-ink-muted">© {year} {SITE.fullName}. {t('footer.rights', lang)}</p>
+    </div>
+    <div class="flex items-center gap-5 text-xs text-ink-muted">
+      <a href={SITE.contact.instagramLink} target="_blank" rel="noopener noreferrer" class="link-underline">Instagram</a>
+      <a href={SITE.contact.facebookLink} target="_blank" rel="noopener noreferrer" class="link-underline">Facebook</a>
+      <a href={SITE.contact.whatsappLink} target="_blank" rel="noopener noreferrer" class="link-underline">WhatsApp</a>
+    </div>
+  </div>
+</footer>

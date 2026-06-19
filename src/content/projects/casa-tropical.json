@@ -1,0 +1,30 @@
+{
+  "slug": "casa-tropical",
+  "order": 1,
+  "year": 2023,
+  "type": "residencial",
+  "cover": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=80",
+  "images": [
+    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=80"
+  ],
+  "i18n": {
+    "es": {
+      "title": "Casa Tropical",
+      "location": "Santa Ana, San José",
+      "description": "Vivienda de una planta abierta al jardín, con ventilación cruzada y materiales locales. El programa se organiza alrededor de un patio central que conecta sala, comedor y cocina con la vegetación."
+    },
+    "en": {
+      "title": "Tropical House",
+      "location": "Santa Ana, San José",
+      "description": "Single-story home opened to the garden, with cross ventilation and local materials. The program is organized around a central patio that connects living, dining and kitchen with the landscape."
+    },
+    "fr": {
+      "title": "Maison Tropicale",
+      "location": "Santa Ana, San José",
+      "description": "Maison de plain-pied ouverte sur le jardin, ventilation traversante et matériaux locaux. Le programme s'articule autour d'un patio central qui relie séjour, salle à manger et cuisine au paysage."
+    }
+  }
+}

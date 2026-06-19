@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "projects": "Projets",
+    "about": "À propos",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Architecte · Costa Rica",
+    "title": "Des espaces pensés pour être habités.",
+    "subtitle": "Plus de deux décennies à concevoir résidences, commerces et rénovations avec un regard honnête sur le lieu, la lumière et le métier.",
+    "ctaProjects": "Voir les projets",
+    "ctaContact": "Discutons"
+  },
+  "projects": {
+    "title": "Projets",
+    "subtitle": "Une sélection de travaux récents.",
+    "viewProject": "Voir le projet",
+    "year": "Année",
+    "location": "Lieu",
+    "type": "Type",
+    "back": "Retour aux projets",
+    "gallery": "Galerie",
+    "next": "Projet suivant"
+  },
+  "about": {
+    "title": "À propos",
+    "body": "Je suis architecte basé au Costa Rica. Mon travail commence par l'écoute — du client et du site. Chaque projet cherche un équilibre clair entre fonction, matérialité et contexte. J'accompagne familles et entreprises sur des constructions neuves, des extensions et des rénovations, avec toujours la même priorité : bien construire, sans bruit."
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Un accompagnement de bout en bout.",
+    "items": {
+      "design": {
+        "title": "Conception architecturale",
+        "description": "Avant-projets, plans et spécifications techniques pour le neuf, résidentiel et commercial."
+      },
+      "renovation": {
+        "title": "Rénovation",
+        "description": "Interventions sur le bâti existant pour rénover, agrandir et améliorer l'habitabilité."
+      },
+      "construction": {
+        "title": "Direction des travaux",
+        "description": "Supervision technique sur site pour garantir qualité, délais et fidélité au projet."
+      },
+      "consulting": {
+        "title": "Conseil",
+        "description": "Conseils pour l'achat de terrain, la faisabilité de projets et les démarches municipales."
+      }
+    }
+  },
+  "contact": {
+    "title": "Discutons",
+    "subtitle": "Parlez-moi de votre projet. Je réponds personnellement.",
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram",
+    "facebook": "Facebook"
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "designed": "Site conçu avec soin."
+  },
+  "common": {
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "changeLanguage": "Changer de langue"
+  }
+}

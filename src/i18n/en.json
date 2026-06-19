@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "projects": "Projects",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Architect · Costa Rica",
+    "title": "Spaces designed to be lived in.",
+    "subtitle": "Over two decades designing homes, businesses and renovations with an honest eye on place, light and craft.",
+    "ctaProjects": "View projects",
+    "ctaContact": "Let's talk"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "A selection of recent work.",
+    "viewProject": "View project",
+    "year": "Year",
+    "location": "Location",
+    "type": "Type",
+    "back": "Back to projects",
+    "gallery": "Gallery",
+    "next": "Next project"
+  },
+  "about": {
+    "title": "About",
+    "body": "I'm an architect based in Costa Rica. My work starts by listening — to the client and to the site. Each project looks for a clear balance between function, materials and context. I've worked with families and businesses on new builds, additions and renovations where the priority is always to build well, quietly."
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "End-to-end accompaniment.",
+    "items": {
+      "design": {
+        "title": "Architectural design",
+        "description": "Concept, plans and technical specs for new residential and commercial work."
+      },
+      "renovation": {
+        "title": "Renovation",
+        "description": "Interventions on existing buildings to update, expand and improve livability."
+      },
+      "construction": {
+        "title": "Construction supervision",
+        "description": "On-site technical oversight to keep quality, schedule and design intent on track."
+      },
+      "consulting": {
+        "title": "Consulting",
+        "description": "Guidance on lot purchase, project feasibility and municipal permits."
+      }
+    }
+  },
+  "contact": {
+    "title": "Let's talk",
+    "subtitle": "Tell me about your project. I answer personally.",
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram",
+    "facebook": "Facebook"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "designed": "Site crafted with care."
+  },
+  "common": {
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "changeLanguage": "Change language"
+  }
+}

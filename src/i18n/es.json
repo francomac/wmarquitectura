@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "projects": "Proyectos",
+    "about": "Sobre mí",
+    "services": "Servicios",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "eyebrow": "Arquitecto · Costa Rica",
+    "title": "Espacios pensados para habitar.",
+    "subtitle": "Más de dos décadas diseñando residencias, comercios y remodelaciones con una mirada honesta sobre el lugar, la luz y el oficio.",
+    "ctaProjects": "Ver proyectos",
+    "ctaContact": "Conversemos"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Una selección de obras recientes.",
+    "viewProject": "Ver proyecto",
+    "year": "Año",
+    "location": "Ubicación",
+    "type": "Tipo",
+    "back": "Volver a proyectos",
+    "gallery": "Galería",
+    "next": "Siguiente proyecto"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "body": "Soy arquitecto con base en Costa Rica. Mi trabajo nace de escuchar al cliente y al sitio: cada proyecto busca un equilibrio claro entre función, materialidad y contexto. He acompañado a familias y empresas en obras nuevas, ampliaciones y remodelaciones donde la prioridad siempre es construir bien, sin ruido."
+  },
+  "services": {
+    "title": "Servicios",
+    "subtitle": "Acompañamiento de principio a fin.",
+    "items": {
+      "design": {
+        "title": "Diseño arquitectónico",
+        "description": "Anteproyectos, planos y especificaciones técnicas para obra nueva, residencial y comercial."
+      },
+      "renovation": {
+        "title": "Remodelación",
+        "description": "Intervenciones en edificaciones existentes para actualizar, ampliar y mejorar habitabilidad."
+      },
+      "construction": {
+        "title": "Dirección de obra",
+        "description": "Supervisión técnica en sitio para garantizar calidad, plazos y fidelidad al diseño."
+      },
+      "consulting": {
+        "title": "Consultoría",
+        "description": "Asesoría para compra de lote, viabilidad de proyectos y trámites municipales."
+      }
+    }
+  },
+  "contact": {
+    "title": "Conversemos",
+    "subtitle": "Cuéntame de tu proyecto. Respondo personalmente.",
+    "whatsapp": "WhatsApp",
+    "instagram": "Instagram",
+    "facebook": "Facebook"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "designed": "Sitio diseñado con cariño."
+  },
+  "common": {
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "changeLanguage": "Cambiar idioma"
+  }
+}

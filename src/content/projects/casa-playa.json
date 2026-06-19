@@ -1,0 +1,29 @@
+{
+  "slug": "casa-playa",
+  "order": 4,
+  "year": 2020,
+  "type": "residencial",
+  "cover": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1400&q=80",
+  "images": [
+    "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=1600&q=80"
+  ],
+  "i18n": {
+    "es": {
+      "title": "Casa de Playa",
+      "location": "Nosara, Guanacaste",
+      "description": "Casa frente al mar pensada para vivir afuera. Aleros amplios, terrazas continuas y materiales resistentes a la salinidad. La estructura desaparece detrás del paisaje."
+    },
+    "en": {
+      "title": "Beach House",
+      "location": "Nosara, Guanacaste",
+      "description": "Beachfront house designed to be lived outdoors. Deep eaves, continuous terraces and materials that hold up to salt air. The structure steps back behind the landscape."
+    },
+    "fr": {
+      "title": "Maison de Plage",
+      "location": "Nosara, Guanacaste",
+      "description": "Maison en bord de mer pensée pour vivre dehors. Larges débords, terrasses continues et matériaux résistants à l'air salin. La structure s'efface derrière le paysage."
+    }
+  }
+}

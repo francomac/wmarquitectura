@@ -1,0 +1,51 @@
+---
+import type { Lang } from '../lib/site';
+import { SITE } from '../lib/site';
+import { t } from '../i18n/ui';
+import { localePath } from '../lib/paths';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const home = localePath(lang);
+---
+
+<section class="relative overflow-hidden border-b border-ink/5 bg-paper">
+  <div class="container-w grid gap-8 py-16 sm:py-24 lg:grid-cols-12 lg:py-32">
+    <div class="lg:col-span-8 flex flex-col justify-center">
+      <span class="eyebrow">{t('hero.eyebrow', lang)}</span>
+      <h1 class="mt-4 h-display">
+        {t('hero.title', lang)}
+      </h1>
+      <p class="mt-6 max-w-prose text-fluid-base text-ink-muted">
+        {t('hero.subtitle', lang)}
+      </p>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a href={`${home}#proyectos`} class="btn-primary">{t('hero.ctaProjects', lang)}</a>
+        <a href={`${home}#contacto`} class="btn-ghost">{t('hero.ctaContact', lang)}</a>
+      </div>
+    </div>
+
+    <aside class="lg:col-span-4 flex items-end">
+      <div class="w-full rounded-2xl border border-ink/10 bg-paper-soft p-6">
+        <p class="font-display text-fluid-lg leading-snug text-ink">
+          {SITE.fullName}
+        </p>
+        <p class="mt-1 text-sm text-ink-muted">{SITE.tagline} · Costa Rica</p>
+        <hr class="my-5 border-ink/10" />
+        <dl class="grid grid-cols-2 gap-4 text-sm">
+          <div>
+            <dt class="text-ink-muted">Años</dt>
+            <dd class="mt-1 font-display text-fluid-xl">20+</dd>
+          </div>
+          <div>
+            <dt class="text-ink-muted">Proyectos</dt>
+            <dd class="mt-1 font-display text-fluid-xl">100+</dd>
+          </div>
+        </dl>
+      </div>
+    </aside>
+  </div>
+</section>

@@ -1,0 +1,29 @@
+{
+  "slug": "oficina-escazu",
+  "order": 3,
+  "year": 2021,
+  "type": "comercial",
+  "cover": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1400&q=80",
+  "images": [
+    "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=1600&q=80"
+  ],
+  "i18n": {
+    "es": {
+      "title": "Oficina Escazú",
+      "location": "Escazú, San José",
+      "description": "Remodelación de planta libre para oficina corporativa, con énfasis en áreas comunes, salas informales y un sistema de iluminación que aprovecha la luz natural."
+    },
+    "en": {
+      "title": "Escazú Office",
+      "location": "Escazú, San José",
+      "description": "Open-floor renovation for a corporate office, focused on common areas, informal meeting rooms and a lighting system that leverages daylight."
+    },
+    "fr": {
+      "title": "Bureau Escazú",
+      "location": "Escazú, San José",
+      "description": "Rénovation d'un plateau libre pour un bureau corporatif, axée sur les espaces communs, les salles informelles et un éclairage qui tire parti de la lumière naturelle."
+    }
+  }
+}
