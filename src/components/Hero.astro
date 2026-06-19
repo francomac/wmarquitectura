@@ -17,7 +17,6 @@ const home = localePath(lang);
     <div class="grid items-end gap-12 lg:grid-cols-12 lg:gap-10">
       <div class="lg:col-span-7">
         <span class="eyebrow">
-          <span class="eyebrow-num">[01]</span>
           {t('hero.eyebrow', lang)}
         </span>
         <h1 class="mt-8 h-display text-balance">
@@ -43,11 +42,11 @@ const home = localePath(lang);
               class="h-full w-full object-cover"
             />
           </div>
-          <figcaption class="mt-4 flex items-start justify-between gap-4">
-            <div class="meta-row">
-              <span>{SITE.region}</span>
-              <span class="text-ink-faint">/</span>
-              <span>{SITE.coords}</span>
+          <figcaption class="mt-4 flex flex-col gap-1.5 sm:flex-row sm:items-start sm:justify-between sm:gap-4">
+            <div class="font-mono text-fluid-xs uppercase tracking-[0.18em] text-ink-muted">
+              {SITE.region}
+              <span class="text-ink-faint"> / </span>
+              {SITE.coords}
             </div>
             <span class="font-mono text-fluid-xs uppercase tracking-[0.18em] text-ink-muted">
               Est. {SITE.yearFounded}
