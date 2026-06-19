@@ -5,7 +5,6 @@ export const SITE = {
   tagline: 'Arquitecto',
   region: 'Pacífico Sur · Costa Rica',
   base: 'Dominical, Costa Rica',
-  coords: '9°15′ N · 83°51′ W',
   yearFounded: 2003,
   domain: 'wmarquitectura.com',
   contact: {
