@@ -13,16 +13,19 @@ const channels = [
     label: t('contact.whatsapp', lang),
     value: SITE.contact.phone,
     href: SITE.contact.whatsappLink,
+    external: true,
   },
   {
     label: t('contact.instagram', lang),
     value: SITE.contact.instagramHandle,
     href: SITE.contact.instagramLink,
+    external: true,
   },
   {
-    label: t('contact.facebook', lang),
-    value: SITE.contact.facebookName,
-    href: SITE.contact.facebookLink,
+    label: t('contact.email', lang),
+    value: SITE.contact.email,
+    href: SITE.contact.emailLink,
+    external: false,
   },
 ];
 ---
@@ -52,8 +55,8 @@ const channels = [
           <li class={i > 0 ? 'border-t border-paper/15 sm:border-t-0 sm:border-l' : ''}>
             <a
               href={c.href}
-              target="_blank"
-              rel="noopener noreferrer"
+              target={c.external ? '_blank' : undefined}
+              rel={c.external ? 'noopener noreferrer' : undefined}
               class="group flex h-full items-center justify-between gap-4 px-0 py-8 sm:px-7 sm:py-10 transition-colors hover:bg-ink-soft"
             >
               <div>

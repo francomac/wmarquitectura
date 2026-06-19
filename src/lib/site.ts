@@ -12,8 +12,8 @@ export const SITE = {
     whatsappLink: 'https://wa.me/50683752474',
     instagramHandle: '@wmarquitectura',
     instagramLink: 'https://www.instagram.com/wmarquitectura',
-    facebookName: 'Arq William Martinez Sandoval',
-    facebookLink: 'https://facebook.com/Arq.William.Martinez.Sandoval',
+    email: 'arquitectowilliammartinez@gmail.com',
+    emailLink: 'mailto:arquitectowilliammartinez@gmail.com',
   },
 } as const;
 
