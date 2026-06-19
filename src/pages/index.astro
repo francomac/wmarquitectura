@@ -1,3 +1,39 @@
 ---
-return Astro.redirect('/es/');
+import { SITE, LANGS, DEFAULT_LANG } from '../lib/site';
+
+const langList = JSON.stringify(LANGS);
+const defaultLang = DEFAULT_LANG;
+const title = `${SITE.fullName} · ${SITE.tagline}`;
 ---
+
+<!doctype html>
+<html lang={defaultLang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate" hreflang="es" href={`https://${SITE.domain}/es`} />
+    <link rel="alternate" hreflang="en" href={`https://${SITE.domain}/en`} />
+    <link rel="alternate" hreflang="fr" href={`https://${SITE.domain}/fr`} />
+    <link rel="alternate" hreflang="x-default" href={`https://${SITE.domain}/${defaultLang}`} />
+    <meta name="robots" content="noindex" />
+    <style>
+      html, body { background: #fafaf7; margin: 0; height: 100%; }
+    </style>
+    <script is:inline define:vars={{ langList, defaultLang }}>
+      (function () {
+        const supported = JSON.parse(langList);
+        const pick = (navigator.languages || [navigator.language || ''])
+          .map((l) => (l || '').slice(0, 2).toLowerCase())
+          .find((l) => supported.includes(l));
+        const target = `/${pick || defaultLang}`;
+        window.location.replace(target);
+      })();
+    </script>
+    <noscript>
+      <meta http-equiv="refresh" content={`0;url=/${defaultLang}`} />
+    </noscript>
+  </head>
+  <body></body>
+</html>
