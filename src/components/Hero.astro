@@ -12,40 +12,72 @@ const { lang } = Astro.props;
 const home = localePath(lang);
 ---
 
-<section class="relative overflow-hidden border-b border-ink/5 bg-paper">
-  <div class="container-w grid gap-8 py-16 sm:py-24 lg:grid-cols-12 lg:py-32">
-    <div class="lg:col-span-8 flex flex-col justify-center">
-      <span class="eyebrow">{t('hero.eyebrow', lang)}</span>
-      <h1 class="mt-4 h-display">
-        {t('hero.title', lang)}
-      </h1>
-      <p class="mt-6 max-w-prose text-fluid-base text-ink-muted">
-        {t('hero.subtitle', lang)}
-      </p>
-      <div class="mt-8 flex flex-wrap gap-3">
-        <a href={`${home}#proyectos`} class="btn-primary">{t('hero.ctaProjects', lang)}</a>
-        <a href={`${home}#contacto`} class="btn-ghost">{t('hero.ctaContact', lang)}</a>
+<section class="relative overflow-hidden bg-paper">
+  <div class="container-w pt-14 pb-20 sm:pt-20 sm:pb-28 lg:pt-28 lg:pb-36">
+    <div class="grid items-end gap-12 lg:grid-cols-12 lg:gap-10">
+      <div class="lg:col-span-7">
+        <span class="eyebrow">
+          <span class="eyebrow-num">[01]</span>
+          {t('hero.eyebrow', lang)}
+        </span>
+        <h1 class="mt-8 h-display text-balance">
+          {t('hero.title', lang)}
+        </h1>
+        <p class="mt-10 lead text-pretty">
+          {t('hero.subtitle', lang)}
+        </p>
+        <div class="mt-10 flex flex-wrap gap-3">
+          <a href={`${home}#obras`} class="btn-primary">{t('hero.ctaProjects', lang)} <span aria-hidden="true">↓</span></a>
+          <a href={`${home}#contacto`} class="btn-ghost">{t('hero.ctaContact', lang)}</a>
+        </div>
+      </div>
+
+      <aside class="lg:col-span-5">
+        <figure class="relative">
+          <div class="aspect-[4/5] w-full overflow-hidden bg-paper-soft">
+            <img
+              src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80"
+              alt="Casa tropical con madera y vidrio en el Pacífico Sur de Costa Rica"
+              loading="eager"
+              decoding="async"
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <figcaption class="mt-4 flex items-start justify-between gap-4">
+            <div class="meta-row">
+              <span>{SITE.region}</span>
+              <span class="text-ink-faint">/</span>
+              <span>{SITE.coords}</span>
+            </div>
+            <span class="font-mono text-fluid-xs uppercase tracking-[0.18em] text-ink-muted">
+              Est. {SITE.yearFounded}
+            </span>
+          </figcaption>
+        </figure>
+      </aside>
+    </div>
+  </div>
+
+  <div class="rule"></div>
+
+  <div class="container-w">
+    <div class="grid grid-cols-2 sm:grid-cols-4 divide-x divide-ink/10 -mx-5 sm:-mx-8 lg:-mx-14">
+      <div class="px-5 sm:px-8 lg:px-10 py-7">
+        <p class="font-mono text-[0.65rem] uppercase tracking-eyebrow text-ink-muted">Años</p>
+        <p class="mt-2 font-display text-fluid-xl font-light leading-none tracking-tightest">20<span class="text-ink-faint">+</span></p>
+      </div>
+      <div class="px-5 sm:px-8 lg:px-10 py-7">
+        <p class="font-mono text-[0.65rem] uppercase tracking-eyebrow text-ink-muted">Obras</p>
+        <p class="mt-2 font-display text-fluid-xl font-light leading-none tracking-tightest">100<span class="text-ink-faint">+</span></p>
+      </div>
+      <div class="px-5 sm:px-8 lg:px-10 py-7">
+        <p class="font-mono text-[0.65rem] uppercase tracking-eyebrow text-ink-muted">Base</p>
+        <p class="mt-2 font-display text-fluid-lg font-light leading-none tracking-tightest">Dominical</p>
+      </div>
+      <div class="px-5 sm:px-8 lg:px-10 py-7">
+        <p class="font-mono text-[0.65rem] uppercase tracking-eyebrow text-ink-muted">Práctica</p>
+        <p class="mt-2 font-display text-fluid-lg font-light leading-none tracking-tightest">Independiente</p>
       </div>
     </div>
-
-    <aside class="lg:col-span-4 flex items-end">
-      <div class="w-full rounded-2xl border border-ink/10 bg-paper-soft p-6">
-        <p class="font-display text-fluid-lg leading-snug text-ink">
-          {SITE.fullName}
-        </p>
-        <p class="mt-1 text-sm text-ink-muted">{SITE.tagline} · Costa Rica</p>
-        <hr class="my-5 border-ink/10" />
-        <dl class="grid grid-cols-2 gap-4 text-sm">
-          <div>
-            <dt class="text-ink-muted">Años</dt>
-            <dd class="mt-1 font-display text-fluid-xl">20+</dd>
-          </div>
-          <div>
-            <dt class="text-ink-muted">Proyectos</dt>
-            <dd class="mt-1 font-display text-fluid-xl">100+</dd>
-          </div>
-        </dl>
-      </div>
-    </aside>
   </div>
 </section>
