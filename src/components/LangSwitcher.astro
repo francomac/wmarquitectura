@@ -11,23 +11,27 @@ const { lang } = Astro.props;
 const currentPath = Astro.url.pathname;
 ---
 
-<nav aria-label={t('common.changeLanguage', lang)} class="flex items-center gap-1 text-xs font-medium">
+<nav
+  aria-label={t('common.changeLanguage', lang)}
+  class="flex items-center font-mono text-[0.65rem] uppercase tracking-[0.18em]"
+>
   {
-    LANGS.map((l) => {
+    LANGS.map((l, i) => {
       const active = l === lang;
       const href = swapLocaleInPath(currentPath, l);
       return (
-        <a
-          href={href}
-          aria-current={active ? 'true' : undefined}
-          class={`rounded-full px-2.5 py-1 transition-colors ${
-            active
-              ? 'bg-ink text-paper'
-              : 'text-ink-muted hover:text-ink'
-          }`}
-        >
-          {LANG_LABELS[l]}
-        </a>
+        <>
+          {i > 0 && <span class="px-1.5 text-ink-faint" aria-hidden="true">·</span>}
+          <a
+            href={href}
+            aria-current={active ? 'true' : undefined}
+            class={`transition-colors ${
+              active ? 'text-ink font-medium' : 'text-ink-muted hover:text-ink'
+            }`}
+          >
+            {LANG_LABELS[l]}
+          </a>
+        </>
       );
     })
   }

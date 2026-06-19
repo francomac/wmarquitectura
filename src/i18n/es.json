@@ -1,57 +1,57 @@
 {
   "nav": {
-    "projects": "Proyectos",
-    "about": "Sobre mí",
+    "projects": "Obras",
+    "about": "Estudio",
     "services": "Servicios",
     "contact": "Contacto"
   },
   "hero": {
-    "eyebrow": "Arquitecto · Costa Rica",
-    "title": "Espacios pensados para habitar.",
-    "subtitle": "Más de dos décadas diseñando residencias, comercios y remodelaciones con una mirada honesta sobre el lugar, la luz y el oficio.",
-    "ctaProjects": "Ver proyectos",
+    "eyebrow": "Arquitectura · Pacífico Sur",
+    "title": "Habitar el trópico, sin hacer ruido.",
+    "subtitle": "Diseño residencial y comercial con base en Dominical, Costa Rica. Trabajo desde el lugar: la pendiente, la sombra, el viento, los oficios cercanos. Cada proyecto busca asentarse en su sitio antes que destacarse.",
+    "ctaProjects": "Ver obras",
     "ctaContact": "Conversemos"
   },
   "projects": {
-    "title": "Proyectos",
-    "subtitle": "Una selección de obras recientes.",
+    "title": "Obras seleccionadas",
+    "subtitle": "Residencias, intervenciones y espacios pensados para el clima del Pacífico Sur.",
     "viewProject": "Ver proyecto",
     "year": "Año",
-    "location": "Ubicación",
-    "type": "Tipo",
-    "back": "Volver a proyectos",
+    "location": "Lugar",
+    "type": "Programa",
+    "back": "Volver a obras",
     "gallery": "Galería",
-    "next": "Siguiente proyecto"
+    "next": "Siguiente obra"
   },
   "about": {
-    "title": "Sobre mí",
-    "body": "Soy arquitecto con base en Costa Rica. Mi trabajo nace de escuchar al cliente y al sitio: cada proyecto busca un equilibrio claro entre función, materialidad y contexto. He acompañado a familias y empresas en obras nuevas, ampliaciones y remodelaciones donde la prioridad siempre es construir bien, sin ruido."
+    "title": "El estudio",
+    "body": "Estudio independiente con base en Dominical, Pacífico Sur de Costa Rica. Más de dos décadas trabajando entre la costa y la cordillera, en proyectos donde el clima manda y los materiales se eligen por cómo envejecen. Acompaño a cada cliente desde el primer croquis hasta la entrega: pocas obras al año, cuidadas de cerca, construidas con maestros locales."
   },
   "services": {
     "title": "Servicios",
-    "subtitle": "Acompañamiento de principio a fin.",
+    "subtitle": "De principio a fin, sin tercerizar la mirada.",
     "items": {
       "design": {
         "title": "Diseño arquitectónico",
-        "description": "Anteproyectos, planos y especificaciones técnicas para obra nueva, residencial y comercial."
+        "description": "Anteproyectos, planos constructivos y especificaciones para obra nueva residencial y comercial en clima tropical."
       },
       "renovation": {
         "title": "Remodelación",
-        "description": "Intervenciones en edificaciones existentes para actualizar, ampliar y mejorar habitabilidad."
+        "description": "Intervenciones en edificaciones existentes — ampliación, reorganización y puesta en valor."
       },
       "construction": {
         "title": "Dirección de obra",
-        "description": "Supervisión técnica en sitio para garantizar calidad, plazos y fidelidad al diseño."
+        "description": "Supervisión en sitio para sostener calidad, plazos y la coherencia entre planos y construcción."
       },
       "consulting": {
         "title": "Consultoría",
-        "description": "Asesoría para compra de lote, viabilidad de proyectos y trámites municipales."
+        "description": "Lectura de lote, viabilidad de proyectos, trámites municipales y peritajes."
       }
     }
   },
   "contact": {
     "title": "Conversemos",
-    "subtitle": "Cuéntame de tu proyecto. Respondo personalmente.",
+    "subtitle": "Escribime sobre tu proyecto — respondo personalmente.",
     "whatsapp": "WhatsApp",
     "instagram": "Instagram",
     "facebook": "Facebook"

@@ -11,15 +11,30 @@ const year = 2026;
 ---
 
 <footer class="bg-paper">
-  <div class="container-w flex flex-col gap-4 py-10 sm:flex-row sm:items-center sm:justify-between">
-    <div>
-      <p class="font-display text-lg text-ink">{SITE.name}</p>
-      <p class="mt-1 text-xs text-ink-muted">© {year} {SITE.fullName}. {t('footer.rights', lang)}</p>
+  <div class="container-w py-12 sm:py-14">
+    <div class="grid gap-8 sm:grid-cols-12 sm:items-end">
+      <div class="sm:col-span-6">
+        <p class="font-display text-fluid-lg font-light tracking-tightest text-ink">{SITE.fullName}</p>
+        <p class="mt-2 font-mono text-fluid-xs uppercase tracking-eyebrow text-ink-muted">
+          {SITE.tagline} · {SITE.base}
+        </p>
+      </div>
+      <div class="sm:col-span-6 sm:text-right">
+        <div class="flex flex-wrap items-center gap-5 sm:justify-end font-mono text-fluid-xs uppercase tracking-[0.18em] text-ink-muted">
+          <a href={SITE.contact.instagramLink} target="_blank" rel="noopener noreferrer" class="link-underline">Instagram</a>
+          <a href={SITE.contact.facebookLink} target="_blank" rel="noopener noreferrer" class="link-underline">Facebook</a>
+          <a href={SITE.contact.whatsappLink} target="_blank" rel="noopener noreferrer" class="link-underline">WhatsApp</a>
+        </div>
+      </div>
     </div>
-    <div class="flex items-center gap-5 text-xs text-ink-muted">
-      <a href={SITE.contact.instagramLink} target="_blank" rel="noopener noreferrer" class="link-underline">Instagram</a>
-      <a href={SITE.contact.facebookLink} target="_blank" rel="noopener noreferrer" class="link-underline">Facebook</a>
-      <a href={SITE.contact.whatsappLink} target="_blank" rel="noopener noreferrer" class="link-underline">WhatsApp</a>
+
+    <div class="mt-10 flex flex-col gap-3 border-t border-ink/15 pt-6 sm:flex-row sm:items-center sm:justify-between">
+      <p class="font-mono text-[0.65rem] uppercase tracking-eyebrow text-ink-faint">
+        © {year} {SITE.fullName}. {t('footer.rights', lang)}
+      </p>
+      <p class="font-mono text-[0.65rem] uppercase tracking-eyebrow text-ink-faint">
+        {SITE.coords}
+      </p>
     </div>
   </div>
 </footer>

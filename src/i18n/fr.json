@@ -1,57 +1,57 @@
 {
   "nav": {
-    "projects": "Projets",
-    "about": "À propos",
+    "projects": "Œuvres",
+    "about": "Atelier",
     "services": "Services",
     "contact": "Contact"
   },
   "hero": {
-    "eyebrow": "Architecte · Costa Rica",
-    "title": "Des espaces pensés pour être habités.",
-    "subtitle": "Plus de deux décennies à concevoir résidences, commerces et rénovations avec un regard honnête sur le lieu, la lumière et le métier.",
-    "ctaProjects": "Voir les projets",
+    "eyebrow": "Architecture · Pacifique Sud",
+    "title": "Habiter les tropiques, sans bruit.",
+    "subtitle": "Conception résidentielle et commerciale depuis Dominical, Costa Rica. Le travail part du lieu : la pente, l'ombre, le vent, les artisans proches. Chaque projet cherche à s'asseoir dans son site avant de se faire remarquer.",
+    "ctaProjects": "Voir les œuvres",
     "ctaContact": "Discutons"
   },
   "projects": {
-    "title": "Projets",
-    "subtitle": "Une sélection de travaux récents.",
+    "title": "Œuvres choisies",
+    "subtitle": "Résidences, interventions et espaces pensés pour le climat du Pacifique Sud.",
     "viewProject": "Voir le projet",
     "year": "Année",
     "location": "Lieu",
-    "type": "Type",
-    "back": "Retour aux projets",
+    "type": "Programme",
+    "back": "Retour aux œuvres",
     "gallery": "Galerie",
-    "next": "Projet suivant"
+    "next": "Œuvre suivante"
   },
   "about": {
-    "title": "À propos",
-    "body": "Je suis architecte basé au Costa Rica. Mon travail commence par l'écoute — du client et du site. Chaque projet cherche un équilibre clair entre fonction, matérialité et contexte. J'accompagne familles et entreprises sur des constructions neuves, des extensions et des rénovations, avec toujours la même priorité : bien construire, sans bruit."
+    "title": "L'atelier",
+    "body": "Pratique indépendante basée à Dominical, sur la côte Pacifique sud du Costa Rica. Deux décennies de travail entre la côte et la cordillère, sur des projets où le climat dicte et où les matériaux se choisissent pour leur manière de vieillir. J'accompagne chaque commande du premier croquis à la livraison — peu de projets par an, suivis de près, construits avec des artisans locaux."
   },
   "services": {
     "title": "Services",
-    "subtitle": "Un accompagnement de bout en bout.",
+    "subtitle": "De bout en bout. Le regard ne se sous-traite pas.",
     "items": {
       "design": {
         "title": "Conception architecturale",
-        "description": "Avant-projets, plans et spécifications techniques pour le neuf, résidentiel et commercial."
+        "description": "Avant-projets, plans d'exécution et spécifications pour du neuf, résidentiel et commercial, en climat tropical."
       },
       "renovation": {
         "title": "Rénovation",
-        "description": "Interventions sur le bâti existant pour rénover, agrandir et améliorer l'habitabilité."
+        "description": "Interventions sur l'existant — extensions, réorganisation et mise en valeur."
       },
       "construction": {
         "title": "Direction des travaux",
-        "description": "Supervision technique sur site pour garantir qualité, délais et fidélité au projet."
+        "description": "Supervision sur site pour tenir la qualité, les délais et la cohérence entre plans et chantier."
       },
       "consulting": {
         "title": "Conseil",
-        "description": "Conseils pour l'achat de terrain, la faisabilité de projets et les démarches municipales."
+        "description": "Lecture de terrain, faisabilité, démarches municipales et expertises."
       }
     }
   },
   "contact": {
     "title": "Discutons",
-    "subtitle": "Parlez-moi de votre projet. Je réponds personnellement.",
+    "subtitle": "Parlez-moi de votre projet — je réponds personnellement.",
     "whatsapp": "WhatsApp",
     "instagram": "Instagram",
     "facebook": "Facebook"
