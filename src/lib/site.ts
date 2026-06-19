@@ -10,8 +10,8 @@ export const SITE = {
   contact: {
     phone: '+506 8375 2474',
     whatsappLink: 'https://wa.me/50683752474',
-    instagramHandle: '@williammartinezarquitectura',
-    instagramLink: 'https://www.instagram.com/williammartinezarquitectura',
+    instagramHandle: '@wmarquitectura',
+    instagramLink: 'https://www.instagram.com/wmarquitectura',
     facebookName: 'Arq William Martinez Sandoval',
     facebookLink: 'https://facebook.com/Arq.William.Martinez.Sandoval',
   },
