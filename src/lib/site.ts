@@ -4,7 +4,7 @@ export const SITE = {
   wordmark: 'WM · ARQUITECTURA',
   tagline: 'Arquitecto',
   region: 'Pacífico Sur · Costa Rica',
-  base: 'Dominical, Costa Rica',
+  base: 'Uvita, Costa Rica',
   yearFounded: 2003,
   domain: 'wmarquitectura.com',
   contact: {
