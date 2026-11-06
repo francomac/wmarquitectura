@@ -1,0 +1,29 @@
+{
+  "slug": "casa-uvita",
+  "order": 1,
+  "type": "residencial",
+  "cover": "https://images.unsplash.com/photo-1753194931548-065891743746?auto=format&fit=crop&w=1400&q=80",
+  "images": [
+    "https://images.unsplash.com/photo-1753194931548-065891743746?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1760067538386-6df24ba8f7a3?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1760067538299-3f58e7a99fc5?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1762117361025-52f24e45d9ac?auto=format&fit=crop&w=1600&q=80"
+  ],
+  "i18n": {
+    "es": {
+      "title": "Casa Uvita",
+      "location": "Uvita, Osa, Puntarenas",
+      "description": "Casa en Uvita de volúmenes blancos y cubierta oscura a cuatro aguas, organizada alrededor de la piscina. Jacuzzi integrado al deck, terraza de piso claro para bajar la temperatura y una pérgola de comedor al fondo. Setos y palmeras cierran el lote y dan privacidad sin perder la brisa."
+    },
+    "en": {
+      "title": "Uvita House",
+      "location": "Uvita, Osa, Puntarenas",
+      "description": "House in Uvita with white volumes and a dark hipped roof, organized around the pool. A hot tub built into the deck, a light-toned terrace to keep the heat down and a dining pergola at the back. Hedges and palms enclose the lot, giving privacy without losing the breeze."
+    },
+    "fr": {
+      "title": "Maison Uvita",
+      "location": "Uvita, Osa, Puntarenas",
+      "description": "Maison à Uvita aux volumes blancs et à toiture sombre à quatre pans, organisée autour de la piscine. Jacuzzi intégré à la terrasse, sol clair pour limiter la chaleur et pergola de repas au fond. Haies et palmiers ferment la parcelle et offrent l'intimité sans perdre la brise."
+    }
+  }
+}

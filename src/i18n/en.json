@@ -5,18 +5,13 @@
     "services": "Services",
     "contact": "Contact"
   },
-  "hero": {
-    "eyebrow": "Architecture · South Pacific",
-    "title": "Inhabiting the tropics, quietly.",
-    "subtitle": "Residential and commercial design based in Uvita, Costa Rica. The work starts from the site itself: the slope, the shade, the wind, the local trades. Each project tries to settle in before it stands out.",
-    "ctaProjects": "View work",
-    "ctaContact": "Let's talk"
+  "meta": {
+    "description": "Residential and commercial design based in Uvita, Costa Rica. The work starts from the site itself: the slope, the shade, the wind, the local trades. Each project tries to settle in before it stands out."
   },
   "projects": {
     "title": "Selected work",
     "subtitle": "Houses, interventions and spaces designed for the South Pacific climate.",
     "viewProject": "View project",
-    "year": "Year",
     "location": "Location",
     "type": "Program",
     "back": "Back to work",
@@ -25,7 +20,9 @@
   },
   "about": {
     "title": "The studio",
-    "body": "Independent practice based in Uvita, on the South Pacific coast of Costa Rica. Two decades of work between coast and cordillera, on projects where the climate leads and materials are chosen by how they age. I follow each commission from the first sketch to handover — few projects a year, closely watched, built with local craftspeople."
+    "body": "Independent practice based in Uvita, on the South Pacific coast of Costa Rica. Two decades of work between coast and cordillera, on projects where the climate leads and materials are chosen by how they age. I follow each commission from the first sketch to handover — few projects a year, closely watched, built with local craftspeople.",
+    "ctaProjects": "View work",
+    "ctaContact": "Let's talk"
   },
   "services": {
     "title": "Services",

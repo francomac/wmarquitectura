@@ -1,0 +1,29 @@
+{
+  "slug": "residencia-ballena",
+  "order": 2,
+  "type": "residencial",
+  "cover": "https://images.unsplash.com/photo-1598924957326-0446ac30341e?auto=format&fit=crop&w=1400&q=80",
+  "images": [
+    "https://images.unsplash.com/photo-1598924957326-0446ac30341e?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1766603636483-84b2a2b8ee89?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1766603636502-99ac1abcb6c7?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1668276490368-409a6002756d?auto=format&fit=crop&w=1600&q=80"
+  ],
+  "i18n": {
+    "es": {
+      "title": "Residencia Ballena",
+      "location": "Bahía Ballena, Osa, Puntarenas",
+      "description": "Residencia en ladera sobre Bahía Ballena, con una terraza cubierta que se abre al Pacífico. Columnas revestidas en piedra local sostienen la cubierta; la piscina de borde infinito se funde con el mar y el jacuzzi se integra al mismo deck. Pensada para vivir el atardecer todos los días."
+    },
+    "en": {
+      "title": "Ballena Residence",
+      "location": "Bahía Ballena, Osa, Puntarenas",
+      "description": "Hillside residence above Bahía Ballena, with a covered terrace that opens to the Pacific. Columns clad in local stone carry the roof; the infinity-edge pool merges with the sea and the hot tub sits on the same deck. Designed to live the sunset every single day."
+    },
+    "fr": {
+      "title": "Résidence Ballena",
+      "location": "Bahía Ballena, Osa, Puntarenas",
+      "description": "Résidence à flanc de colline au-dessus de Bahía Ballena, avec une terrasse couverte ouverte sur le Pacifique. Des colonnes habillées de pierre locale portent la toiture ; la piscine à débordement se fond dans la mer et le jacuzzi partage la même terrasse. Conçue pour vivre le coucher du soleil chaque jour."
+    }
+  }
+}

@@ -58,14 +58,10 @@ const nextNum = String(((idx + 1) % ordered.length) + 1).padStart(2, '0');
             </div>
           </div>
 
-          <dl class="mt-12 grid grid-cols-2 gap-x-6 gap-y-8 border-t border-ink/15 pt-8 sm:grid-cols-3 sm:max-w-2xl">
+          <dl class="mt-12 grid grid-cols-2 gap-x-6 gap-y-8 border-t border-ink/15 pt-8 sm:max-w-2xl">
             <div>
               <dt class="font-mono text-fluid-xs uppercase tracking-eyebrow text-ink-muted">{t('projects.location', lang)}</dt>
               <dd class="mt-2 font-display text-fluid-base text-ink">{tr.location}</dd>
-            </div>
-            <div>
-              <dt class="font-mono text-fluid-xs uppercase tracking-eyebrow text-ink-muted">{t('projects.year', lang)}</dt>
-              <dd class="mt-2 font-display text-fluid-base text-ink">{project.data.year}</dd>
             </div>
             <div>
               <dt class="font-mono text-fluid-xs uppercase tracking-eyebrow text-ink-muted">{t('projects.type', lang)}</dt>
