@@ -12,7 +12,7 @@ interface Props {
 
 const { lang = DEFAULT_LANG, title, description, ogImage } = Astro.props;
 const pageTitle = title ? `${title} · ${SITE.name}` : `${SITE.fullName} · ${SITE.tagline}`;
-const pageDescription = description ?? t('hero.subtitle', lang);
+const pageDescription = description ?? t('meta.description', lang);
 const canonical = new URL(Astro.url.pathname, Astro.site ?? `https://${SITE.domain}`);
 const og = ogImage ?? new URL('/og-image.jpg', Astro.site ?? `https://${SITE.domain}`).toString();
 ---

@@ -1,0 +1,29 @@
+{
+  "slug": "remodelacion-dominical",
+  "order": 5,
+  "type": "remodelacion",
+  "cover": "https://images.unsplash.com/photo-1785407446300-3d89e2158956?auto=format&fit=crop&w=1400&q=80",
+  "images": [
+    "https://images.unsplash.com/photo-1785407446300-3d89e2158956?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1785245647376-ee4a1b9bb896?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1760067538559-49b2bfb5f42a?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1593216452146-1c47e42b2461?auto=format&fit=crop&w=1600&q=80"
+  ],
+  "i18n": {
+    "es": {
+      "title": "Remodelación Dominical",
+      "location": "Dominical, Osa, Puntarenas",
+      "description": "Rehabilitación de una cabina en el bosque de Dominical. Se conservaron las columnas de ladrillo y la cubierta de teja, y se abrió el corredor perimetral para convertirlo en el espacio principal de estar. Jardín tropical recuperado alrededor y madera reutilizada en puertas y mobiliario."
+    },
+    "en": {
+      "title": "Dominical Renovation",
+      "location": "Dominical, Osa, Puntarenas",
+      "description": "Rehabilitation of a cabin in the forest of Dominical. The brick columns and tile roof were kept, and the wraparound porch was opened up to become the main living space. The tropical garden was restored around it, with reclaimed timber in doors and furniture."
+    },
+    "fr": {
+      "title": "Rénovation Dominical",
+      "location": "Dominical, Osa, Puntarenas",
+      "description": "Réhabilitation d'une cabane dans la forêt de Dominical. Les colonnes en brique et la toiture en tuiles ont été conservées, et la galerie périphérique ouverte pour devenir l'espace de vie principal. Jardin tropical restauré tout autour et bois de réemploi pour les portes et le mobilier."
+    }
+  }
+}

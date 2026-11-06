@@ -1,29 +1,29 @@
 {
   "slug": "casa-playa",
   "order": 4,
-  "year": 2020,
   "type": "residencial",
-  "cover": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1400&q=80",
+  "cover": "https://images.unsplash.com/photo-1590087267657-cea7d4ca3ada?auto=format&fit=crop&w=1400&q=80",
   "images": [
-    "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80",
-    "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1600&q=80",
-    "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=1600&q=80"
+    "https://images.unsplash.com/photo-1590087267657-cea7d4ca3ada?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1758192838598-a1de4da5dcaf?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1769466325513-5d7dfc317706?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1784730369100-25169d568fdb?auto=format&fit=crop&w=1600&q=80"
   ],
   "i18n": {
     "es": {
       "title": "Casa de Playa",
-      "location": "Nosara, Guanacaste",
-      "description": "Casa frente al mar pensada para vivir afuera. Aleros amplios, terrazas continuas y materiales resistentes a la salinidad. La estructura desaparece detrás del paisaje."
+      "location": "Ojochal, Osa, Puntarenas",
+      "description": "Casa de playa en Ojochal, asentada sobre un muro de piedra y volada hacia las rocas. Un pabellón de vidrio curvo y losa delgada se abre por completo al mar, bajo la sombra de un almendro. Interior mínimo, ventilación cruzada y el oleaje como único fondo sonoro."
     },
     "en": {
       "title": "Beach House",
-      "location": "Nosara, Guanacaste",
-      "description": "Beachfront house designed to be lived outdoors. Deep eaves, continuous terraces and materials that hold up to salt air. The structure steps back behind the landscape."
+      "location": "Ojochal, Osa, Puntarenas",
+      "description": "Beach house in Ojochal, set on a stone wall and cantilevered toward the rocks. A curved glass pavilion with a thin slab opens fully to the sea, under the shade of an almond tree. Minimal interior, cross ventilation and the surf as the only soundtrack."
     },
     "fr": {
       "title": "Maison de Plage",
-      "location": "Nosara, Guanacaste",
-      "description": "Maison en bord de mer pensée pour vivre dehors. Larges débords, terrasses continues et matériaux résistants à l'air salin. La structure s'efface derrière le paysage."
+      "location": "Ojochal, Osa, Puntarenas",
+      "description": "Maison de plage à Ojochal, posée sur un mur de pierre et en porte-à-faux vers les rochers. Un pavillon de verre courbe à dalle fine s'ouvre entièrement sur la mer, à l'ombre d'un amandier. Intérieur minimal, ventilation traversante et le ressac pour seul fond sonore."
     }
   }
 }

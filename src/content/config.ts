@@ -11,7 +11,6 @@ const projects = defineCollection({
   schema: z.object({
     slug: z.string(),
     order: z.number().default(100),
-    year: z.number(),
     type: z.enum(['residencial', 'comercial', 'remodelacion', 'institucional']),
     cover: z.string(),
     coverAlt: z.string().optional(),

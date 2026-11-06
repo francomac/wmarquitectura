@@ -1,0 +1,29 @@
+{
+  "slug": "villa-manuel-antonio",
+  "order": 3,
+  "type": "residencial",
+  "cover": "https://images.unsplash.com/photo-1756802156662-d0fa771ba255?auto=format&fit=crop&w=1400&q=80",
+  "images": [
+    "https://images.unsplash.com/photo-1756802156662-d0fa771ba255?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1762117360871-f11fbad00ee1?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1762117361030-a23ec89aa218?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1790276319953-a24042120d6b?auto=format&fit=crop&w=1600&q=80"
+  ],
+  "i18n": {
+    "es": {
+      "title": "Villa Manuel Antonio",
+      "location": "Manuel Antonio, Quepos, Puntarenas",
+      "description": "Villa en Manuel Antonio organizada alrededor de la piscina. Un portal de concreto enmarca la entrada y, a ambos lados, muros de celosía dejan pasar la brisa sin perder privacidad. Al fondo, un rancho de cubierta a cuatro aguas sirve de estar exterior y ducha de jardín. Pisos de piedra clara y vegetación densa para bajar la temperatura."
+    },
+    "en": {
+      "title": "Manuel Antonio Villa",
+      "location": "Manuel Antonio, Quepos, Puntarenas",
+      "description": "Villa in Manuel Antonio organized around the pool. A concrete portal frames the entrance and, on both sides, breeze-block walls let the air through without giving up privacy. At the back, a hipped-roof pavilion serves as outdoor living room and garden shower. Light stone floors and dense planting to keep the heat down."
+    },
+    "fr": {
+      "title": "Villa Manuel Antonio",
+      "location": "Manuel Antonio, Quepos, Puntarenas",
+      "description": "Villa à Manuel Antonio organisée autour de la piscine. Un portique en béton cadre l'entrée et, de part et d'autre, des murs en claustra laissent passer la brise sans sacrifier l'intimité. Au fond, un pavillon à toit à quatre pans sert de séjour extérieur et de douche de jardin. Sols en pierre claire et végétation dense pour tempérer la chaleur."
+    }
+  }
+}

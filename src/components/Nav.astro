@@ -12,8 +12,8 @@ const { lang } = Astro.props;
 const home = localePath(lang);
 
 const links = [
-  { href: `${home}#obras`, label: t('nav.projects', lang) },
   { href: `${home}#estudio`, label: t('nav.about', lang) },
+  { href: `${home}#obras`, label: t('nav.projects', lang) },
   { href: `${home}#servicios`, label: t('nav.services', lang) },
   { href: `${home}#contacto`, label: t('nav.contact', lang) },
 ];

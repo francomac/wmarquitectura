@@ -11,7 +11,7 @@ export type Dict = typeof es;
 export const getDict = (lang: Lang): Dict => dicts[lang] ?? dicts[DEFAULT_LANG];
 
 /**
- * Resolve a dot-path inside the dictionary, e.g. `t('hero.title', 'es')`.
+ * Resolve a dot-path inside the dictionary, e.g. `t('about.title', 'es')`.
  * Falls back to the default language and finally to the key itself.
  */
 export const t = (key: string, lang: Lang): string => {
